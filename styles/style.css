@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body{
+  background-color: #ebecf0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li:hover{
+   text-decoration:underline;
+}
+ 
+.imagemprincipal{
+  background-color: #fcfcfa;
+  width: 1530px;
+}
+
+.blocos-principal{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.cabecalho-menu{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.cabecalho-menu-item{
+  margin-top: 100px;
+  font-family: 'Belleza';
+  font-size: 30px;
+}
+
+.imagemlogo{
+  margin-top: 10px;
+}
